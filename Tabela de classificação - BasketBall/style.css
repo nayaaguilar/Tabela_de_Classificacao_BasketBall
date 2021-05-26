@@ -1,0 +1,125 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://bstatic.epicbuzzer.com/uploads/2020/02/MKMJVYLKTNEQTL6Y5IWKLN7PJE.jpg');
+    background-color: #111;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+   
+  
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+ #listaGameTrailer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 460px));
+    grid-template-rows: repeat(auto-fit, minmax(auto, 315px));
+    justify-content: center;
+    grid-gap: 15px;
+    max-height: 5000px;
+    max-width: 1800px;
+    margin: 10px auto;
+  }
+  .gameTrailer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gameTrailer iframe {
+    width: 100%;
+    height: 100%;
+  } 
+     
+  .form-wrapper input {
+    display: block;
+    margin: auto;
+    min-width: 80px;
+    width: 400px;
+    opacity:95%;
+    border-radius:8px;
+    padding: 12px 30px;
+    text-align: center;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    width: 150px;
+    font-weight:bold;
+    padding: 13px 18px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .8s;
+    
+  }
+
+  .btnAdd {
+    background: linear-gradient(360deg, #27ae60 0%, #55efc4 100%);
+    border-radius: 5px;
+  }
+
+  .btnClear {
+    background: linear-gradient(360deg, #e84118 0%, #ff6b6b 100%);
+    border-radius: 5px;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.6;
+  }
+
+.errotela {
+    color:#ff4d4d;
+    font-family: "robotic" sans-serif;
+    text-align: center;
+    position: center;
+}
